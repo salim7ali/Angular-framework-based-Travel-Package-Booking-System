@@ -1,0 +1,371 @@
+/* .wrapper { 
+    background-color: red;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-auto-rows: 100px; 
+  } 
+  
+  .box1 { 
+    grid-column-start: 1; 
+    grid-column-end: 4; 
+    grid-row-start: 1; 
+    grid-row-end: 3; 
+  }
+  
+  .box2 { 
+    grid-column-start: 1; 
+    grid-row-start: 3; 
+    grid-row-end: 5; 
+  } */
+
+  /* @import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway'); */
+
+@media(min-width: 600px) {
+	main {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+		grid-template-rows: 400px 400px 500px 600px ;
+	}
+
+
+	.info-1 {
+		grid-column: span 3;
+		grid-row: span 1;
+	}
+
+	.info-2 {
+		grid-column: span 3;
+	}
+
+	.info-3 {
+		grid-column: span 2;
+		grid-row: span 1;
+	}
+
+	.figure-1 {
+		grid-column: span 2;
+		grid-row: span 2;
+		height: 97%;
+		width: 95%;
+	}
+	.figure-2 {
+		height: 95%;
+		width: 95%;
+	}
+
+	.figure-3 {
+		grid-column: span 3;
+		height: 95%;
+		width: 97%;
+	}
+	
+	.figure-4 {
+		grid-column: span 1;
+		height: 95%;
+		width: 95%;
+	}
+	.figure-5 {
+		height: 95%;
+		width: 95%;
+	}
+	
+	.figure-6 {
+		grid-column: span 2;
+		height: 95%;
+		width: 95%;
+		margin-left: 50px;
+	}
+	
+	
+	
+	.figure-7 {
+		grid-column: span 2;
+		height: 95%;
+		width: 95%;
+	}
+	
+	.figure-8 {
+		grid-column: span 2;
+		height: 95%;
+		width: 98%;
+	}
+
+}
+
+body {
+	max-width: 1600px;
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+} 
+
+.figure-img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform .2s;
+}
+
+.figure-img:hover {
+	-ms-transform: scale(1.2); /* IE 9 */
+	-webkit-transform: scale(1.2); /* Safari 3-8 */
+	transform: scale(1.2);
+	background-color: black;
+	opacity: 0.8;
+}
+
+.image1-text {
+	position: relative;
+	top:-85%;
+	left: 10%;
+	width: 100%;
+	opacity: 0.8;
+}
+
+/* .figure-img:hover ~ .image-text {
+	transform: scale(1.2);
+} */
+
+/* .image-text:hover {
+	transform: scale(1.2);
+} */
+
+.image1-text span{
+	color: white;
+	letter-spacing: -1px;
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+}
+.image2-text {
+	position: relative;
+	top:-47%;
+	left: 18px;
+	width: 100%;
+	opacity: 0.8;
+}
+
+.image2-text span{
+	color: white;
+	letter-spacing: -1px;
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+}
+
+/* delhi streets */
+.image3-text {
+	position: relative;
+	top:-60%;
+	left: 15%;
+	width: 100%;
+	opacity: 0.8;
+}
+.image3-text span{
+	color: white;
+	letter-spacing: -1px;
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+}
+
+/* Himachal */
+.image4-text {
+	position: relative;
+	top:-85%;
+	left: 17px;
+	width: 100%;
+	opacity: 0.8;
+}
+
+.image4-text span{
+	color: white;
+	letter-spacing: -1px;
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+}
+
+/* Rajasthan */
+.image5-text {
+	position: relative;
+	top:-60%;
+	left: 15%;
+	width: 100%;
+	opacity: 0.8;
+}
+
+.image5-text span{
+	color: white;
+	letter-spacing: -1px;
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+}
+.image6-text {
+	position: relative;
+	top:-70%;
+	left: 15%;
+	width: 100%;
+	opacity: 0.8;
+}
+
+.image6-text span{
+	color: white;
+	letter-spacing: -1px;
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+}
+.image7-text {
+	position: relative;
+	top:-95%;
+	left: 20px;
+	width: 100%;
+	opacity: 0.8;
+}
+
+.image7-text span{
+	color: white;
+	letter-spacing: -1px;
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+}
+.image8-text {
+	position: relative;
+	top:-90%;
+	left: 15%;
+	width: 100%;
+	opacity: 0.8;
+}
+
+.image8-text span{
+	color: white;
+	letter-spacing: -1px;
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+}
+
+.info-1, .info-2, .info-3 {
+	/* height: 80%;
+	width: 80%; */
+	padding: 40px;
+	/* height: 60%; */
+	margin-top: 3%;
+	background-color: darkviolet/*#292727*/;
+	color: #fff;
+
+}
+
+.info-1 {
+	margin-left: 40px;
+	width: 657px;
+}
+.info-2 {
+	width: 657px;
+	margin-left: 7%;
+	margin-bottom: 12px;
+}
+.info-3 {
+	margin-left: 7%;
+	margin-bottom: 11px;
+}
+
+.info-1:hover, .info-2:hover, .info-3:hover {
+	padding: 40px;
+	background-color: blueviolet;
+	color: black;
+	
+
+}
+
+h2 {
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+p {
+	margin-bottom: 1em;
+	font-weight: lighter;
+}
+
+.info-link {
+	text-decoration: none;
+	color: #d80c0c;
+}
+
+
+
+.info-1 h2{
+	text-align: center;
+	/* font-family: 'Poiret One', cursive; */
+}
+
+#plans {
+	font-size: 0.6em;
+	text-align: center;
+}
+
+.info-3 h2 {
+	color: darkorange;
+} 
+
+.info-2 h2 {
+	color: darkorange;
+}
+
+.inc-size {
+	font-weight: bold;
+}
+#superscript 
+{
+	vertical-align: super;
+}
+
+/*floating instagram icon*/
+/* .icons 
+{
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	position: fixed;
+	z-index: 100;
+}
+
+.icons ul 
+{
+	padding: initial;
+}
+
+.icons ul li 
+{
+	height: 30px;
+	width: 40px;
+	list-style-type: none;
+	padding-left: 12px;
+	padding-top: 6px;
+	margin-top: 5px;
+	color: #fff;
+}
+.instagram 
+{
+	background: #ff4800;
+}
+.icons ul li:hover 
+{
+	padding-left: 30px;
+	width: 80px;
+	transition: 1s;
+} */
+

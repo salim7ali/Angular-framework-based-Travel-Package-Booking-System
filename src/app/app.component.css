@@ -1,0 +1,35 @@
+/*floating instagram icon*/
+.icons 
+{
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	position: fixed;
+	z-index: 100;
+}
+
+.icons ul 
+{
+	padding: initial;
+}
+
+.icons ul li 
+{
+	height: 30px;
+	width: 40px;
+	list-style-type: none;
+	padding-left: 12px;
+	padding-top: 6px;
+	margin-top: 5px;
+	color: #fff;
+}
+.instagram 
+{
+	background: #ff4800;
+}
+.icons ul li:hover 
+{
+	padding-left: 30px;
+	width: 80px;
+	transition: 1s;
+}

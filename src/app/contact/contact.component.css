@@ -1,0 +1,25 @@
+.secondary{
+	background-color: rgba(0, 0, 0, 0.7);
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	color: #fff;
+	float: left;
+	width: 50%;
+	padding: 10px;
+	height: 500px;
+	}
+	.column {
+		float: left;
+		width: 50%;
+		padding: 10px;
+		height: 300px; /* Should be removed. Only for demonstration */
+	  }
+	  
+	  /* Clear floats after the columns */
+	  .row:after {
+		content: "";
+		display: table;
+		clear: both;
+	  }
